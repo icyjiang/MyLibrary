@@ -1,0 +1,12 @@
+D:\Projects\WindowsFormsApplication2\Library1\bin\Debug\Library1.XML
+D:\Projects\WindowsFormsApplication2\Library1\bin\Debug\Library1.dll
+D:\Projects\WindowsFormsApplication2\Library1\bin\Debug\Library1.pdb
+D:\Projects\WindowsFormsApplication2\Library1\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\WindowsFormsApplication2\Library1\obj\Debug\Library1.dll
+D:\Projects\WindowsFormsApplication2\Library1\obj\Debug\Library1.pdb
+D:\Projects\我的练习\ExControl\MyFSharp\bin\Debug\Library1.XML
+D:\Projects\我的练习\ExControl\MyFSharp\bin\Debug\MyFSharp.dll
+D:\Projects\我的练习\ExControl\MyFSharp\bin\Debug\MyFSharp.pdb
+D:\Projects\我的练习\ExControl\MyFSharp\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\我的练习\ExControl\MyFSharp\obj\Debug\MyFSharp.dll
+D:\Projects\我的练习\ExControl\MyFSharp\obj\Debug\MyFSharp.pdb

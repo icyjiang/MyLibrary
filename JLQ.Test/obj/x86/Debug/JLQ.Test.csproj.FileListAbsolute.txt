@@ -1,0 +1,12 @@
+D:\Projects\我的练习\ExControl\JLQ.Test\bin\Debug\JLQ.Test.exe.config
+D:\Projects\我的练习\ExControl\JLQ.Test\bin\Debug\JLQ.Test.exe
+D:\Projects\我的练习\ExControl\JLQ.Test\bin\Debug\JLQ.Test.pdb
+D:\Projects\我的练习\ExControl\JLQ.Test\bin\Debug\JLQ.Common.dll
+D:\Projects\我的练习\ExControl\JLQ.Test\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\我的练习\ExControl\JLQ.Test\obj\x86\Debug\JLQ.Test.Form1.resources
+D:\Projects\我的练习\ExControl\JLQ.Test\obj\x86\Debug\JLQ.Test.Properties.Resources.resources
+D:\Projects\我的练习\ExControl\JLQ.Test\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\我的练习\ExControl\JLQ.Test\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\我的练习\ExControl\JLQ.Test\obj\x86\Debug\JLQ.Test.exe
+D:\Projects\我的练习\ExControl\JLQ.Test\obj\x86\Debug\JLQ.Test.pdb
+D:\Projects\我的练习\ExControl\JLQ.Test\bin\Debug\JLQ.Common.pdb

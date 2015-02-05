@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30F52526-9570-4C46-93DE-FDAD4A112ACD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JLQ.Common</RootNamespace>
+    <AssemblyName>JLQ.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FSharp.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppCode\AutoClosedMsgBox.cs" />
+    <Compile Include="AppCode\DataGridViewComboEditBoxCell.cs" />
+    <Compile Include="AppCode\ExcelCenter.cs" />
+    <Compile Include="AppCode\HttpWebRequestHelper.cs" />
+    <Compile Include="AppCode\MathMethod.cs" />
+    <Compile Include="AppCode\MultiMap.cs" />
+    <Compile Include="AppCode\Win32.cs" />
+    <Compile Include="ExpondPanel\AppClass.cs" />
+    <Compile Include="ExpondPanel\BasePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExpondPanel\ColorsCustom.cs" />
+    <Compile Include="ExpondPanel\ColorsPanel.cs" />
+    <Compile Include="ExpondPanel\Enum.cs" />
+    <Compile Include="ExpondPanel\EventArgs.cs" />
+    <Compile Include="ExpondPanel\ExpondPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExpondPanel\ExpondPanel.Designer.cs">
+      <DependentUpon>ExpondPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpondPanel\ExpondPanelList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExpondPanel\ExpondPanelList.Designer.cs">
+      <DependentUpon>ExpondPanelList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpondPanel\IPanel.cs" />
+    <Compile Include="ExpondPanel\PanelEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExpondPanel\PanelEx.Designer.cs">
+      <DependentUpon>PanelEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpondPanel\PanelSettingsManager.cs" />
+    <Compile Include="ExpondPanel\UseAntiAlias.cs" />
+    <Compile Include="ExpondPanel\UseClearTypeGridFit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AppCode\Setting.cs" />
+    <Compile Include="ExComboBox\ComboBoxListTextArea.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExComboBox\ComboBoxTextArea.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExComboBox\DropDownListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExComboBox\Enum.cs" />
+    <Compile Include="ExComboBox\ExAppearanceManager.cs" />
+    <Compile Include="ExComboBox\ExDescription.cs" />
+    <Compile Include="ExComboBox\MultiLineComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinControl\AutoHidePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AppCode\BindingCollection.cs" />
+    <Compile Include="AppCode\ControlProperty.cs" />
+    <Compile Include="WinControl\CollapsiblePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinControl\CrystalButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AppCode\EnumToList.cs" />
+    <Compile Include="WinControl\DataGridViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinControl\DataGridViewEx.designer.cs">
+      <DependentUpon>DataGridViewEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinControl\FlashPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinControl\GlassButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinControl\PromptedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinControl\NumbericTextbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinControl\PulseButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinControl\UserTrackChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinControl\UserTrackChart.Designer.cs">
+      <DependentUpon>UserTrackChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\SingleTon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="ExpondPanel\ExpondPanel.resx">
+      <DependentUpon>ExpondPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpondPanel\ExpondPanelList.resx">
+      <DependentUpon>ExpondPanelList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpondPanel\PanelEx.resx">
+      <DependentUpon>PanelEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="WinControl\CollapsiblePanel.resx">
+      <DependentUpon>CollapsiblePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinControl\DataGridViewEx.resx">
+      <DependentUpon>DataGridViewEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinControl\UserTrackChart.resx">
+      <DependentUpon>UserTrackChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\chevrondown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevronleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevronright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevronup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closepanel.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

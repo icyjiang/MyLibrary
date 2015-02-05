@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chevrondown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevrondown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevronleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevronleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevronright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevronright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chevronup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chevronup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="closepanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\closepanel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MlcbExpt_CntFindItem" xml:space="preserve">
+    <value>Couldn't find item '{0}'. type: {1}.</value>
+  </data>
+  <data name="MlcbExpt_CntFindValue" xml:space="preserve">
+    <value>Couldn't find value '{0}'. type: {1}.</value>
+  </data>
+  <data name="MlcbDesc_AcceptsReturn" xml:space="preserve">
+    <value>A value indicating whether pressing ENTER in the editable portion of the combo box creates a new line of text in the control or activates the default button for the form.</value>
+  </data>
+  <data name="MlcbDesc_AcceptsTab" xml:space="preserve">
+    <value>A value indicating whether pressing the TAB key in the editable portion types a TAB character in the control instead of moving the focus to the next control in the tab order.</value>
+  </data>
+  <data name="MlcbDesc_ButtonWidth" xml:space="preserve">
+    <value>The width of the drop-down button in the combo box.</value>
+  </data>
+  <data name="MlcbDesc_DataSource" xml:space="preserve">
+    <value>The data source for the combo box.</value>
+  </data>
+  <data name="MlcbDesc_DataSourceChanged" xml:space="preserve">
+    <value>Event raised when the DataSource property changed.</value>
+  </data>
+  <data name="MlcbDesc_DisplayMember" xml:space="preserve">
+    <value>The property to display for the combo box.</value>
+  </data>
+  <data name="MlcbDesc_DisplayMemberChanged" xml:space="preserve">
+    <value>Event raised when the DisplayMember property changes.</value>
+  </data>
+  <data name="MlcbDesc_DrawItem" xml:space="preserve">
+    <value>Occers when a visual aspect of an owner-drawn combo box changes.</value>
+  </data>
+  <data name="MlcbDesc_DrawMode" xml:space="preserve">
+    <value>The value indicating whether your code or the operating system will handle drawing of elements in the list.</value>
+  </data>
+  <data name="MlcbDesc_DropDown" xml:space="preserve">
+    <value>Occurs when the drop-down portion of the combo box is shown.</value>
+  </data>
+  <data name="MlcbDesc_DropDownBackColor" xml:space="preserve">
+    <value>The background color for the drop-down portion of the combo box.</value>
+  </data>
+  <data name="MlcbDesc_DropDownClosed" xml:space="preserve">
+    <value>Occurs when the drop-down portion of the combo box is no longer visible.</value>
+  </data>
+  <data name="MlcbDesc_DropDownFont" xml:space="preserve">
+    <value>The font of the drop-down portion of the combo box.</value>
+  </data>
+  <data name="MlcbDesc_DropDownForeColor" xml:space="preserve">
+    <value>The foreground color for the drop-down portion of the combo box.</value>
+  </data>
+  <data name="MlcbDesc_DropDownHeight" xml:space="preserve">
+    <value>The height in pixels of the drop-down portion of the combo box.</value>
+  </data>
+  <data name="MlcbDesc_DropDownStyle" xml:space="preserve">
+    <value>A value specifying the style of the combo box.</value>
+  </data>
+  <data name="MlcbDesc_DropDownStyleChanged" xml:space="preserve">
+    <value>Occurs when the DropDownStyle property has changed.</value>
+  </data>
+  <data name="MlcbDesc_DropDownWidth" xml:space="preserve">
+    <value>The width of the drop-down portion of the combo box.</value>
+  </data>
+  <data name="MlcbDesc_FadeEffect" xml:space="preserve">
+    <value>A value indicating whether the fading effect of the combo box is enabled.</value>
+  </data>
+  <data name="MlcbDesc_Format" xml:space="preserve">
+    <value>Event raised when the control is bound to a data value.</value>
+  </data>
+  <data name="MlcbDesc_FormatInfoChanged" xml:space="preserve">
+    <value>Event raised when value of the FormatInfo property changes.</value>
+  </data>
+  <data name="MlcbDesc_FormatString" xml:space="preserve">
+    <value>The format-specifier charactors that indicate how a value is to be displayed.</value>
+  </data>
+  <data name="MlcbDesc_FormatStringChanged" xml:space="preserve">
+    <value>Event raised when value of the FormatString property changes.</value>
+  </data>
+  <data name="MlcbDesc_FormattingEnabled" xml:space="preserve">
+    <value>A value indicating whether formatting is applied to the DisplayMember property of the combo box.</value>
+  </data>
+  <data name="MlcbDesc_FormattingEnabledChanged" xml:space="preserve">
+    <value>Event raised when value of the FormattingEnabled property changes.</value>
+  </data>
+  <data name="MlcbDesc_ItemHeight" xml:space="preserve">
+    <value>The height, in pixels, of an item in the combo box.</value>
+  </data>
+  <data name="MlcbDesc_Items" xml:space="preserve">
+    <value>An object representing the collection of the items contained in the combo box.</value>
+  </data>
+  <data name="MlcbDesc_MaxDropDownItems" xml:space="preserve">
+    <value>The maximum number of items to be shown in the drop-down portion of the combo box.</value>
+  </data>
+  <data name="MlcbDesc_MaxLength" xml:space="preserve">
+    <value>The number of characters a user can type in to the combo box</value>
+  </data>
+  <data name="MlcbDesc_PreferredHeight" xml:space="preserve">
+    <value>The prefeerred height of the combo box.</value>
+  </data>
+  <data name="MlcbDesc_ReadOnly" xml:space="preserve">
+    <value>A value indicationg whether the editable portion of the combo box can be changed.</value>
+  </data>
+  <data name="MlcbDesc_SelectedIndex" xml:space="preserve">
+    <value>Currentry selected item in the combo box.</value>
+  </data>
+  <data name="MlcbDesc_SelectedIndexChanged" xml:space="preserve">
+    <value>Event raised when the SelectedIndex property has changed.</value>
+  </data>
+  <data name="MlcbDesc_SelectedValueChanged" xml:space="preserve">
+    <value>Event raised when the SelectedValue property changes.</value>
+  </data>
+  <data name="MlcbDesc_SelectionChangeCommitted" xml:space="preserve">
+    <value>Event raised when the selected item has changed and that changes is displayed in the combo box.</value>
+  </data>
+  <data name="MlcbDesc_ShortcutsEnabled" xml:space="preserve">
+    <value>A value indicating whether the defined shortcuts are enabled.</value>
+  </data>
+  <data name="MlcbDesc_ShowDropDownToolTip" xml:space="preserve">
+    <value>A value indicating whether a tooltip will be shown when a mouse cursor on the long text item in the drop-down portion of this combobox.</value>
+  </data>
+  <data name="MlcbDesc_SlidingDropDown" xml:space="preserve">
+    <value>A value indicating whether the sliding drop-down animation of the combo box is enabled.</value>
+  </data>
+  <data name="MlcbDesc_Sorted" xml:space="preserve">
+    <value>A value indicating whether the items in the combo box are sorted.</value>
+  </data>
+  <data name="MlcbDesc_Style" xml:space="preserve">
+    <value>The appearance of the combo box.</value>
+  </data>
+  <data name="MlcbDesc_TextAlign" xml:space="preserve">
+    <value>Indicates how text is aligned in the editable portion of the combo box.</value>
+  </data>
+  <data name="MlcbDesc_TextAlignChanged" xml:space="preserve">
+    <value>Event raised when the TextAlign property changes.</value>
+  </data>
+  <data name="MlcbDesc_TextVerticalAlign" xml:space="preserve">
+    <value>Indicates how text is aligned in the editable portion of the combo box.This property works only when the DropDownStyle property is the DropDownList.</value>
+  </data>
+  <data name="MlcbDesc_ValueMember" xml:space="preserve">
+    <value>The Property to use as the actual value for the items in the combo box.</value>
+  </data>
+  <data name="MlcbDesc_ValueMemberChanged" xml:space="preserve">
+    <value>Event raised when the ValueMember property changes.</value>
+  </data>
+  <data name="MlcbDesc_WordWrap" xml:space="preserve">
+    <value>Indicates whether the editable portion  automatically wraps words to the beginning of the next line when necessary.</value>
+  </data>
+</root>

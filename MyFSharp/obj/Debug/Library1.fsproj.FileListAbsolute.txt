@@ -1,0 +1,6 @@
+D:\Projects\WindowsFormsApplication2\Library1\bin\Debug\Library1.XML
+D:\Projects\WindowsFormsApplication2\Library1\bin\Debug\Library1.dll
+D:\Projects\WindowsFormsApplication2\Library1\bin\Debug\Library1.pdb
+D:\Projects\WindowsFormsApplication2\Library1\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\WindowsFormsApplication2\Library1\obj\Debug\Library1.dll
+D:\Projects\WindowsFormsApplication2\Library1\obj\Debug\Library1.pdb
